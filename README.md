@@ -1,9 +1,9 @@
-🧾 CLI Expense Tracker
+<h1>🧾 CLI Expense Tracker</h1>
 
 A simple command-line interface (CLI) tool for tracking your personal expenses, setting monthly budgets, and exporting data — all from your terminal.
 
-This project was built as part of the Expense Tracker Project on roadmap.sh.
-📦 Features
+This project was built as part of the Expense Tracker Project on roadmap.sh(https://roadmap.sh/projects/expense-tracker).
+<h2>📦 Features</h2>
 
     ✅ Add, update, delete, and list expenses
 
@@ -17,23 +17,29 @@ This project was built as part of the Expense Tracker Project on roadmap.sh.
 
     🧰 Fully portable: Works from anywhere if installed via .exe and added to PATH
 
-🚀 Getting Started
-1. Clone the Repository
+<h2>🚀 Getting Started</h2>
+<h3>1. Clone the Repository</h3>
 
+```
 git clone https://github.com/yourusername/expense-tracker-cli.git
 cd expense-tracker-cli
+```
 
-2. Using the Python Script
+<h3>2. Using the Python Script</h3>
 
 Make sure you have Python 3 installed. Run it via:
 
-python expenses-cli.py add --description "Coffee" --amount 3.5 --category "Food" --date 17-04-2025
+```
+python expenses.py add --description "Coffee" --amount 3.5 --category "Food" --date 17-04-2025
+```
 
 Use --help for all commands and arguments:
 
+```
 python expenses.py --help
+```
 
-🪄 Executable Version (.exe)
+<h2>🪄 Executable Version (.exe)</h2>
 
 To make the program universally accessible from your terminal:
 
@@ -41,7 +47,9 @@ To make the program universally accessible from your terminal:
 
     Move the .exe to a custom tools folder. We recommend:
 
+```
 C:\cli-tools
+```
 
     Add that folder to your system's PATH environment variable:
 
@@ -51,42 +59,56 @@ C:\cli-tools
 
         C:\cli-tools
 
-    
-
 Now you can use the program from anywhere in your terminal like this:
 
-expenses-cli add --description "Groceries" --amount 45 --category "Food" --date 16-04-2025
+```
+expenses-cli.exe add --description "Groceries" --amount 45 --category "Food" --date 16-04-2025
+```
 
-🧰 Command Reference
-Add Expense
+<h2>🧰 Command Reference</h2>
+<h3>Add Expense</h3>
 
+```
 add --description "Lunch" --amount 12.5 --category "Food" --date 17-04-2025
+```
 
-Update Expense
+<h3>Update Expense</h3>
 
+```
 update --id 1 --amount 15.0
+```
 
-Delete Expense
+<h3>Delete Expense</h3>
 
+```
 delete --id 1
+```
 
-List Expenses
+<h3>List Expenses</h3>
 
+```
 list --month 4
+```
 
-Expense Summary
+<h3>Expense Summary</h3>
 
+```
 summary --year 2025
+```
 
-Set Budget
+<h3>Set Budget</h3>
 
+```
 set-budget --month 4 --amount 300
+```
 
-Export to CSV
+<h3>Export to CSV</h3>
 
+```
 export
+```
 
-📁 File Locations
+<h2>📁 File Locations</h2>
 
     C:\cli-tools\expenses-cli.json: Stores all expense entries
 
@@ -94,7 +116,7 @@ export
 
     expenses-cli.csv: Output file for CSV exports (file will be saved wherever the cmd command is executed)
 
-🛠️ Built With
+<h2>🛠️ Built With</h2>
 
     Python standard library (argparse, json, csv, etc.)
 
