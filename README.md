@@ -21,8 +21,8 @@ This project was built as part of the Expense Tracker Project on roadmap.sh(http
 <h3>1. Clone the Repository</h3>
 
 ```
-git clone https://github.com/yourusername/expense-tracker-cli.git
-cd expense-tracker-cli
+git clone https://github.com/duditop10/python-expense-tracker.git
+cd python-expense-tracker
 ```
 
 <h3>2. Using the Python Script</h3>
@@ -30,13 +30,13 @@ cd expense-tracker-cli
 Make sure you have Python 3 installed. Run it via:
 
 ```
-python expenses.py add --description "Coffee" --amount 3.5 --category "Food" --date 17-04-2025
+python expenses-cli.py add --description "Coffee" --amount 3.5 --category "Food" --date 17-04-2025
 ```
 
 Use --help for all commands and arguments:
 
 ```
-python expenses.py --help
+python expenses-cli.py --help
 ```
 
 <h2>🪄 Executable Version (.exe)</h2>
@@ -62,7 +62,7 @@ C:\cli-tools
 Now you can use the program from anywhere in your terminal like this:
 
 ```
-expenses-cli.exe add --description "Groceries" --amount 45 --category "Food" --date 16-04-2025
+expenses-cli add --description "Groceries" --amount 45 --category "Food" --date 16-04-2025
 ```
 
 <h2>🧰 Command Reference</h2>
